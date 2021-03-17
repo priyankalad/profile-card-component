@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #19a2ae;
+  background-image: url(images/bg-pattern-top.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+$color: hsl(185, 75%, 39%);
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: $color;
+  background-image: url(images/bg-pattern-top.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
