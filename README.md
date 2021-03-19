@@ -19,18 +19,18 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - This challenge is of level Newbie
 - Implemented using flexbox.
-- Below if the structute
+- Below is the structure:
   - The main container with class "container" is a flexbox with flex-direction row
-  - "container" another flexbox container called class "card" with flex-direction column
-  - "card" has 3 flex items
-    1. profileBGImage -> div with bg image
-    2. profileDetails -> Flex container with flex direction column
-    3. profileStats -> flex container with flex direction row
+  - "container" has another flexbox container with class "card" and flex-direction as column
+  - "card" has 3 div flex items
+    1. profileBGImage -> div with bg image attached in css
+    2. profileDetails -> flexbox container with flex direction column
+    3. profileStats -> flexbox container with flex direction row
 
 ### The challenge
 
-- The most difficult part for me was to adjust two background images "bg-pattern-bottom.svg" and "bg-pattern-top.svg". Initially I tried with "position:absolute", but in final version I am using background-position property with unit percentage. I am still not satisfied with this implementation. I would to know more sophisticated way to implement this feature.
-- Second difficulty I face is with the image "image-victor.jpg". Currently I have implemented with "position:relative" and "bottom :60px". I am not sure if it's a right approach.
+- The most difficult part for me was to adjust two background images "bg-pattern-bottom.svg" and "bg-pattern-top.svg". Initially I tried with "position:absolute", but in the final version, I used "background-position" property with unit percentage. I am still not satisfied with this implementation. I would like to know more sophisticated way to implement this feature.
+- Second difficulty I faced is with the image "image-victor.jpg". Currently I have implemented it with "position:relative" and "bottom :60px". I am not sure if it's a right approach.
 
 ### Screenshot
 
@@ -39,7 +39,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: (https://wonderful-snyder-c70030.netlify.app/)
+- Solution URL: ()
 - Live Site URL: (https://wonderful-snyder-c70030.netlify.app/)
 
 ## My process
@@ -52,7 +52,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-- I am starting learn how to use media queries with this project. In this project, I have implemented the view for desktop
+- I am starting to learn how to use media queries. In this project, I have implemented media qiery for the view for desktop
 
 ```css
 @media (min-width: 1440px) {
@@ -74,7 +74,7 @@ As of now I need to work more on background responsive images, media queries, se
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=-Wlt8NRtOpo&t=1498s&ab_channel=freeCodeCamp.org) - This helped me to learn CSS Flexbox in detail.
+- [Example resource 1](https://www.youtube.com/watch?v=-Wlt8NRtOpo&t=1498s&ab_channel=freeCodeCamp.org) - This helped me to learn CSS Flexbox in great detail.
 
 ## Author
 
