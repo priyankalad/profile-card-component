@@ -25,7 +25,7 @@ body {
 
 .card {
   width: 300px;
-  height: 450px;
+  height: 500px;
   background-color: white;
   border-radius: 20px;
   display: flex;
@@ -35,7 +35,7 @@ body {
 }
 
 .profileBGImage {
-  height: 30%;
+  height: 40%;
   flex-direction: column;
   background-image: url("images/bg-pattern-card.svg");
 }
