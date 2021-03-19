@@ -9,15 +9,15 @@ body {
   width: 100%;
   font-size: 18px;
   font-family: "Kumbh Sans", "https://fonts.google.com/specimen/Kumbh+Sans";
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 45vw bottom 45vh, left 45vw top 45vh;
 }
 
 .container {
   height: 97%;
-  background-color: hsl(180, 20%, 4%);
-  background-image: url("images/bg-pattern-top.svg"),
-    url("images/bg-pattern-bottom.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: 135% 140%, -20% -60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,13 +31,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  overflow-y: hidden;
 }
 
 .profileBGImage {
   height: 30%;
   flex-direction: column;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   background-image: url("images/bg-pattern-card.svg");
 }
 .profileDetails {
@@ -100,8 +99,5 @@ body {
   .card {
     width: 300px;
     height: 350px;
-  }
-  .container {
-    background-position: -50% 230%, 140% -180%;
   }
 }
